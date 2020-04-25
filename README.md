@@ -1,6 +1,9 @@
 # Misc
 Miscellaneous Code
 
+# UbuntuSetup.txt
+Script and information for setting up a new Ubuntu install and some desired programs. Use in combination with readme at https://github.com/BraunPenguin/InstanceSegmentation-Detectron2 for Instance Segmentation.
+
 # ChromeDarkTheme
 Simply Dark Chrome Theme
 
