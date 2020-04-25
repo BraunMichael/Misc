@@ -8,4 +8,4 @@ Add to chrome by downloading, going to chrome://extensions, enable developer mod
 
 
 # Green With Envy
-Nvidia graphics monitor and overclocking utility for Ubuntu from https://gitlab.com/leinardi/gwe.
+Nvidia graphics monitor and overclocking utility for Ubuntu from https://gitlab.com/leinardi/gwe. See UbuntuSetup.txt for installation/use info.
