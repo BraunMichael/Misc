@@ -75,4 +75,4 @@ Get-Content -Path $HOME\.ssh\id_rsa.pub | Set-Clipboard
 Then navigate to https://github.com/settings/ssh/new and paste the key in the key field.
 
 
-Restart your computer and everything should be set. Information on how to use the MATLAB git interface here: https://www.mathworks.com/help/matlab/source-control.html
+Restart your computer and everything should be set. Information on how to use the MATLAB git interface [here](https://www.mathworks.com/help/matlab/source-control.html) and [this video](https://www.youtube.com/watch?v=KkMEwUX0IsI)
