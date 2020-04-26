@@ -13,7 +13,7 @@ Add to chrome by downloading, going to chrome://extensions, enable developer mod
 Nvidia graphics monitor and overclocking utility for Ubuntu from https://gitlab.com/leinardi/gwe. See UbuntuSetup.txt for installation/use info.
 
 # Setting up Github with MATLAB
-Combines information from [MATLAB's docs](https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) and [this post](https://medium.com/rkttu/set-up-ssh-key-and-git-integration-in-windows-10-native-way-c9b94952dd2c)
+Combines information from [MATLAB's docs](https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) and [this post](https://medium.com/rkttu/set-up-ssh-key-and-git-integration-in-windows-10-native-way-c9b94952dd2c), also see [this video](https://www.youtube.com/watch?v=jOh-7ImGQZo)
 
 ### Install git
 Download and install git from https://gitforwindows.org/ and choose the following options:
