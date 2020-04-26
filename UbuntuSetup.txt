@@ -2,12 +2,12 @@
 timedatectl set-local-rtc 1
 
 
-# Also install using the commands below: psensor, notepadqq, pycharm, audio-output-switcher
+# Also install using the commands below: psensor, notepadqq, pycharm, audio-output-switcher, solaar
 sudo snap install pycharm-community --classic
 sudo snap install --classic notepadqq
 sudo apt-add-repository ppa:jfi/ppa
 sudo apt-get update
-sudo apt-get install indicator-sound-switcher lm-sensors psensor
+sudo apt-get install indicator-sound-switcher lm-sensors psensor solaar
 
 # For audio switching, either sound switcher indicator or the gnome extension audio output switcher (https://github.com/adaxi/audio-output-switcher)
 # For audio output switcher (Preferred, https://github.com/adaxi/audio-output-switcher)
