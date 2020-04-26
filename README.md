@@ -13,7 +13,7 @@ Add to chrome by downloading, going to chrome://extensions, enable developer mod
 Nvidia graphics monitor and overclocking utility for Ubuntu from https://gitlab.com/leinardi/gwe. See UbuntuSetup.txt for installation/use info.
 
 # Setting up Github with MATLAB
-Combines information from MATLAB's docs (https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) and this post (https://medium.com/rkttu/set-up-ssh-key-and-git-integration-in-windows-10-native-way-c9b94952dd2c)
+Combines information from [MATLAB's docs](https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) and [this post](https://medium.com/rkttu/set-up-ssh-key-and-git-integration-in-windows-10-native-way-c9b94952dd2c)
 
 ### Install git
 Download and install git from https://gitforwindows.org/ and choose the following options:
@@ -59,6 +59,13 @@ Add key pair to the ssh-agent service via:
 ```
 ssh-add
 ```
+
+Set the GIT_SSH environment variable (see [here](https://stackoverflow.com/questions/19531626/git-on-windows-force-use-of-openssh) and [here](https://stackoverflow.com/questions/2499331/git-with-ssh-on-windows) for more information) via:
+```
+$SSHPath = (Get-Command -Name ‘ssh.exe’).Source
+[Environment]::SetEnvironmentVariable(‘GIT_SSH’, $SSHPath, ‘User’)
+```
+
 
 Register the key on Github
 In the powershell window still, copy the key to your clipboard via:
