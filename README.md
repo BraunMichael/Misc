@@ -1,6 +1,17 @@
 # Misc
 Miscellaneous Code, see https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet for a Github markdown cheatsheet 
 
+# UbuntuSetup.txt
+Script and information for setting up a new Ubuntu install and some desired programs. Use in combination with readme at https://github.com/BraunPenguin/InstanceSegmentation-Detectron2 for Instance Segmentation.
+
+# ChromeDarkTheme
+Simply Dark Chrome Theme
+
+Add to chrome by downloading, going to chrome://extensions, enable developer mode, then drag and drop the .crx file into chrome. Instructions source: https://blog.hunter.io/how-to-install-a-chrome-extension-without-using-the-chrome-web-store-31902c780034
+
+# Green With Envy
+Nvidia graphics monitor and overclocking utility for Ubuntu from https://gitlab.com/leinardi/gwe. See UbuntuSetup.txt for installation/use info.
+
 # Setting up Github with MATLAB
 Combines information from MATLAB's docs (https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) and this post (https://medium.com/rkttu/set-up-ssh-key-and-git-integration-in-windows-10-native-way-c9b94952dd2c)
 
@@ -58,16 +69,3 @@ Then navigate to https://github.com/settings/ssh/new and paste the key in the ke
 
 
 Restart your computer and everything should be set. Information on how to use the MATLAB git interface here: https://www.mathworks.com/help/matlab/source-control.html
-
-
-# UbuntuSetup.txt
-Script and information for setting up a new Ubuntu install and some desired programs. Use in combination with readme at https://github.com/BraunPenguin/InstanceSegmentation-Detectron2 for Instance Segmentation.
-
-# ChromeDarkTheme
-Simply Dark Chrome Theme
-
-Add to chrome by downloading, going to chrome://extensions, enable developer mode, then drag and drop the .crx file into chrome. Instructions source: https://blog.hunter.io/how-to-install-a-chrome-extension-without-using-the-chrome-web-store-31902c780034
-
-
-# Green With Envy
-Nvidia graphics monitor and overclocking utility for Ubuntu from https://gitlab.com/leinardi/gwe. See UbuntuSetup.txt for installation/use info.
