@@ -1,6 +1,13 @@
 # Fix for ubuntu/windows times being different: https://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
 timedatectl set-local-rtc 1
 
+# Possibly useful for fixing infinite login loop:
+cd ~
+vim .profile
+-use "i" to start editing, add the following lines:
+export DISPLAY=:0
+-then hit esc and type :wq and hit enter
+source .profile
 
 # Also install using the commands below: psensor, notepadqq, pycharm, audio-output-switcher, solaar
 sudo snap install pycharm-community --classic
