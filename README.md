@@ -5,7 +5,7 @@ Miscellaneous Code, see https://github.com/adam-p/markdown-here/wiki/Markdown-Ch
 See the [MergingRepos](MergingRepos.MD) file for how to merge Github repos (especially those owned by others) with your own code.
 
 # UbuntuSetup.txt
-Script and information for setting up a new Ubuntu install and some desired programs. Use in combination with readme at https://github.com/BraunPenguin/InstanceSegmentation-Detectron2 for Instance Segmentation.
+See [UbuntuSetup](UbuntuSetup.txt) for setting up a new Ubuntu install and some desired programs. Use in combination with [this readme](https://github.com/BraunPenguin/InstanceSegmentation-Detectron2/Readme.MD) for Instance Segmentation.
 
 # ChromeDarkTheme
 Simply Dark Chrome Theme
