@@ -1,9 +1,9 @@
-Fix for ubuntu/windows times being different: https://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
+### Fix for ubuntu/windows times being different: https://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
 ```
 timedatectl set-local-rtc 1
 ```
 
-Possibly useful for fixing infinite login loop:
+### Possibly useful for fixing infinite login loop:
 ```
 cd ~
 vim .profile
@@ -13,7 +13,7 @@ export DISPLAY=:0
 source .profile
 ```
 
-Also install using the commands below: psensor, notepadqq, pycharm, audio-output-switcher, solaar
+### Nice programs, install using the commands below: psensor, notepadqq, pycharm, audio-output-switcher, solaar
 ```
 sudo snap install pycharm-community --classic
 sudo snap install --classic notepadqq
@@ -67,6 +67,11 @@ Terminal=false
 Type=Application
 Categories=Application
 ```
+
+### Nice tidbits:
+Use Shift + volume +/- for a finer control of volume
+[Fix the photo viewer blurring](https://askubuntu.com/questions/237575/zoom-in-on-small-photos-without-losing-pixel-crispness) by going to image viewer preferences on an open image - Image Enhancements - uncheck the Smooth Images options
+
 
 Nvidia Issues?
 Get graphics driver directly from site here: 
