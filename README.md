@@ -1,6 +1,9 @@
 # Misc
 Miscellaneous Code, see https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet for a Github markdown cheatsheet 
 
+# Line by Line Profiling of Python Code
+https://github.com/pyutils/line_profiler#id2
+
 # Merging Github Repos
 See [MergingRepos](MergingRepos.MD) for how to merge Github repos (especially those owned by others) with your own code.
 
