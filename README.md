@@ -22,4 +22,6 @@ Nvidia graphics monitor and overclocking utility for Ubuntu from https://gitlab.
 See [MATLABwithGithub](MATLABwithGithub.MD) for how to setup Github in MATLAB
 
 ## Moving Virtual Environments in Pycharm
-After moving the venv folder, need to go to venv/bin/activate and edit the VIRTUAL_ENV variable line to the new path. 
+After moving the venv folder:
+- Go to venv/bin/, open the activate file, and edit the VIRTUAL_ENV variable line to the new path.
+- Also in venv/bin/, open all the pip files, and edit the top line to match the new path. 
