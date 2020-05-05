@@ -4,6 +4,9 @@ Miscellaneous Code, see https://github.com/adam-p/markdown-here/wiki/Markdown-Ch
 ## Line by Line Profiling of Python Code
 https://github.com/pyutils/line_profiler#id2
 
+## Pycharm marking modules as "Cannot find reference '<module>' in '__init__.py'"
+In Pycharm go File - Invalidate Caches/Restart - Invalidate and Restart from [comment here](https://stackoverflow.com/a/20479761)
+
 ## Merging Github Repos
 See [MergingRepos](MergingRepos.MD) for how to merge Github repos (especially those owned by others) with your own code.
 
