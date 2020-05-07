@@ -81,5 +81,4 @@ Use Shift + volume +/- for a finer control of volume
 
 
 Nvidia Issues?
-Get graphics driver directly from site here: 
-https://www.nvidia.com/Download/index.aspx
+Get graphics driver directly from site [here](https://www.nvidia.com/Download/index.aspx).
