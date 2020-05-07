@@ -13,7 +13,7 @@ export DISPLAY=:0
 source .profile
 ```
 
-### Nice programs, install using the commands below: psensor, notepadqq, pycharm, [audio output switcher](https://github.com/adaxi/audio-output-switcher), solaar, [flameshot](https://github.com/lupoDharkael/flameshot)
+### Nice programs, install using the commands below: psensor, notepadqq, pycharm, [audio-output-switcher](https://github.com/adaxi/audio-output-switcher), solaar, [flameshot](https://github.com/lupoDharkael/flameshot)
 ```
 sudo snap install pycharm-community --classic
 sudo snap install --classic notepadqq
