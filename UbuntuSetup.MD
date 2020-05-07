@@ -13,13 +13,13 @@ export DISPLAY=:0
 source .profile
 ```
 
-### Nice programs, install using the commands below: psensor, notepadqq, pycharm, [audio-output-switcher](https://github.com/adaxi/audio-output-switcher), solaar, [flameshot](https://github.com/lupoDharkael/flameshot)
+### Nice programs, install using the commands below: psensor, notepadqq, pycharm, solaar, [flameshot](https://github.com/lupoDharkael/flameshot)
 ```
 sudo snap install pycharm-community --classic
 sudo snap install --classic notepadqq
 sudo apt-add-repository ppa:jfi/ppa
 sudo apt-get update
-sudo apt-get install indicator-sound-switcher lm-sensors psensor solaar flameshot
+sudo apt-get install lm-sensors psensor solaar flameshot
 ```
 
 For audio switching, either sound switcher indicator or the gnome extension [audio-output-switcher](https://github.com/adaxi/audio-output-switcher).
