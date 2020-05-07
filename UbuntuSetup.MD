@@ -22,8 +22,8 @@ sudo apt-get update
 sudo apt-get install indicator-sound-switcher lm-sensors psensor solaar flameshot
 ```
 
-For audio switching, either sound switcher indicator or the gnome extension audio output switcher (https://github.com/adaxi/audio-output-switcher)
-For audio output switcher (Preferred, https://github.com/adaxi/audio-output-switcher)
+For audio switching, either sound switcher indicator or the gnome extension [audio output switcher](https://github.com/adaxi/audio-output-switcher)
+For [audio output switcher](https://github.com/adaxi/audio-output-switcher) (Preferred)
 ```
 sudo apt install gnome-tweaks gnome-shell-extensions
 git clone https://github.com/adaxi/audio-output-switcher.git ~/.local/share/gnome-shell/extensions/audio-output-switcher@anduchs
