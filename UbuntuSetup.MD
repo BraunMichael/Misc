@@ -1,4 +1,4 @@
-### Fix for ubuntu/windows times being different: https://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot
+### Fix for ubuntu/windows times being different from [here](https://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot):
 ```
 timedatectl set-local-rtc 1
 ```
