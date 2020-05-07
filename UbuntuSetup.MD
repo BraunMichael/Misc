@@ -13,13 +13,13 @@ export DISPLAY=:0
 source .profile
 ```
 
-### Nice programs, install using the commands below: psensor, notepadqq, pycharm, audio-output-switcher, solaar
+### Nice programs, install using the commands below: psensor, notepadqq, pycharm, audio-output-switcher, solaar, flameshot
 ```
 sudo snap install pycharm-community --classic
 sudo snap install --classic notepadqq
 sudo apt-add-repository ppa:jfi/ppa
 sudo apt-get update
-sudo apt-get install indicator-sound-switcher lm-sensors psensor solaar
+sudo apt-get install indicator-sound-switcher lm-sensors psensor solaar flameshot
 ```
 
 For audio switching, either sound switcher indicator or the gnome extension audio output switcher (https://github.com/adaxi/audio-output-switcher)
@@ -67,6 +67,12 @@ Terminal=false
 Type=Application
 Categories=Application
 ```
+
+For Flameshot screenshots, change default Ubuntu screenshot shortcut to Flameshot by going to settings - keyboard shortcuts, then disabling the default shortcut. Then scroll all the way down and click the '+' to add a custom shortcut. For the command enter:
+```
+flameshot gui
+```
+Remember that you may have to press fn + print screen depending on your keyboard!
 
 ### Nice tidbits:
 Use Shift + volume +/- for a finer control of volume
