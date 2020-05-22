@@ -13,13 +13,13 @@ export DISPLAY=:0
 source .profile
 ```
 
-### Nice programs, install using the commands below: psensor, notepadqq, pycharm, solaar, [flameshot](https://github.com/lupoDharkael/flameshot)
+### Nice programs, install using the commands below: psensor, notepadqq, pycharm, solaar, [flameshot](https://github.com/lupoDharkael/flameshot), [redshift](https://github.com/jonls/redshift)
 ```
 sudo snap install pycharm-community --classic
 sudo snap install --classic notepadqq
 sudo apt-add-repository ppa:jfi/ppa
 sudo apt-get update
-sudo apt-get install lm-sensors psensor solaar flameshot
+sudo apt-get install lm-sensors psensor solaar flameshot redshift-gtk
 ```
 
 For audio switching, either sound switcher indicator or the gnome extension [audio-output-switcher](https://github.com/adaxi/audio-output-switcher).
@@ -74,6 +74,16 @@ For Flameshot screenshots, change default Ubuntu screenshot shortcut to Flamesho
 flameshot gui
 ```
 Remember that you may have to press fn + print screen depending on your keyboard!
+
+For Redshift, download the redshift.conf file in this repo and then use the following commands from the directory containing redshift.conf:
+```
+mkdir ~/.config/redshift
+mv redshift.conf ~/.config/redshift
+```
+Then add to startup applicaitons,enter the following as the command (latitude:longitude):
+```
+redshift-gtk -l 37:-122
+```
 
 ### Nice tidbits:
 Use Shift + volume +/- for a finer control of volume
